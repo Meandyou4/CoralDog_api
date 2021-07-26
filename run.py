@@ -198,7 +198,7 @@ def r(p):
 
    
 
-      PATH=os.path.join(base ,"models/EFN.pth").replace('\\','/')
+      PATH=os.path.join(base ,"./EFN.pth").replace('\\','/')
       EFNModel = torch.load(PATH)
       EFNModel.eval()
       if cuda.is_available():
