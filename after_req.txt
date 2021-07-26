@@ -1,0 +1,17 @@
+python -m venv env
+cd to env 
+activate env
+pip install -r requirements.txt
+pip install torch==1.6.0+cpu torchvision==0.7.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+pip install efficientnet_pytorch==0.6.3
+pip install python-dotenv
+pip install flask_restful
+pip install requests
+
+Make .flaskenv file with: 
+FLASK_APP=app.py 
+FLASK_ENV=development
+
+flask run
+
+#flask run --host IP_ADDRESS
