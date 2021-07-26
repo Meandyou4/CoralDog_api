@@ -41,13 +41,13 @@ data:image/png;base64
 Output:
 ```
 {
-    "f_id": 39,
-    "first": "BULL_TERRIER",
-    "first_prediction_procent": "99%",
-    "others_breeds": "1%",
-    "s_id": 132,
-    "second": "SOFT-COATED_WHEATEN_TERRIER",
-    "second_prediction_procent": "0%"
+  "f_id": 59, 
+  "first": "DOBERMAN", 
+  "first_prediction_procent": "91%", 
+  "others_breeds": "6%", 
+  "s_id": 98, 
+  "second": "MEXICAN_HAIRLESS", 
+  "second_prediction_procent": "3%"
 }
 ```
 --------------------------
