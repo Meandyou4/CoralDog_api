@@ -26,7 +26,7 @@ FLASK_ENV=development
 - #flask run --host IP_ADDRESS
 
 --------------------------
-Testing api: API_test.py
+Testing api: app.py
 --------------------------
 API:
 
