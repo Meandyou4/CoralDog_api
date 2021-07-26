@@ -31,7 +31,7 @@ Testing api: app.py
 API:
 
 - localhost:5000/send-image/<path:url>
-
+- http://192.168.2.92:5000/send-image/https://i.pinimg.com/564x/39/0f/f5/390ff5f5469dbd1b759521a8b8822553.jpg
 data:image/jpeg;base64
 
 data:image/png;base64
