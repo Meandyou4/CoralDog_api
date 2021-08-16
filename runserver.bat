@@ -1,2 +1,2 @@
 @echo off
-cmd /k "cd /d ./CoralPet_app/env/Scripts & activate & cd /d    ./CoralPet_app & python startagain.py"
+cmd /k "cd /d C:/Users/princ/Desktop/CoralPet_app/env/Scripts & activate & cd /d    C:/Users/princ/Desktop/CoralPet_app & python startagain.py"
