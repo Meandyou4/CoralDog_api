@@ -133,6 +133,9 @@ def index():
     except:
         print('Please try with different URL !!!')
         return jsonify(
+              data='Please try with different URL !!!',
+              format_supports=' JPG, PNG',
+              data_supports='Regular URL and Base64 data',
               f_id=None,
               first=None,
               first_prediction_procent=None,
@@ -209,7 +212,19 @@ def image_check(url):
     return index()
     #return os.path.abspath(file_name)     
 
+@app.route("/", methods=['GET', 'POST'])
+def error1():
+    return jsonify(
+        error_id='3',
+        error=' Insert /send-image/path:url correctly!!!'
+        )
+
+@app.route("/send-image/", methods=['GET', 'POST'])
+def error2():
+    return jsonify(
+        error_id='2',
+        error=' Please insert path/url!!!'
+        )
 
 
-app.run(debug=True)
 #app.run(host="0.0.0.0", port=5555)
