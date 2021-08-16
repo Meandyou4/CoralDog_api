@@ -1,7 +1,7 @@
 <h1>Recognition of Dog Breeds</h1>
 
 
-1. git clone https://github.com/SasaMMS/dog_app.git
+1. git clone https://github.com/SasaMMS/CoralDog_api.git
 2. Download - https://drive.google.com/file/d/1GDux7Nto7da314SMAB-RQWZAkAuT9Otz/view?usp=sharing
 3. Fajl prebaci ga u ./Web_App/models/
 
