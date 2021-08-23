@@ -2,8 +2,8 @@
 
 
 1. git clone https://github.com/SasaMMS/CoralDog_api.git
-2. Download - https://drive.google.com/file/d/1GDux7Nto7da314SMAB-RQWZAkAuT9Otz/view?usp=sharing or skip it if exist
-3. Move file ENV.pb to ./Web_App/models/
+2. Download - https://drive.google.com/file/d/1GDux7Nto7da314SMAB-RQWZAkAuT9Otz/view?usp=sharing or skip it if exist "EFN.pth"
+3. Move file EFN.pth to ./Web_App/models/
 
 4. python -m venv env (Make environment in Web_App folder)
 
